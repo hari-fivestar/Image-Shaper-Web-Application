@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Shaper with Frame</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <h2>🖼️ Image Shaper with Frame</h2>
+        <input type="file" id="imageUpload" accept="image/*"><br>
+        <select id="shapeSelect">
+      <option value="circle">Circle</option>
+      <option value="square">Square</option>
+      <option value="star">Star</option>
+      <option value="triangle">Triangle</option>
+      <option value="rectangle">Rectangle</option>
+    </select><br>
+        <input type="text" id="titleInput" placeholder="Add Title (optional)"><br>
+        <textarea id="descInput" placeholder="Add Description (optional)" rows="3"></textarea><br>
+        <button id="generateBtn">Generate Image</button>
+        <button id="saveBtn">Save Image</button>
+
+        <canvas id="canvas" width="500" height="500"></canvas>
+    </div>
+
+    <script src="script.js">
+    </script>
+
+
+</body>
+
+</html>
